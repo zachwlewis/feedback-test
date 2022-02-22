@@ -7,11 +7,13 @@ const Home: NextPage = () => {
     const router = useRouter();
     return (
         <div className={styles.container}>
-            <FeedbackForm
-                onSuccess={() => {
-                    router.push("/feedback");
-                }}
-            />
+            <div className={styles.main}>
+                <FeedbackForm
+                    onSuccess={() => {
+                        router.push("/feedback");
+                    }}
+                />
+            </div>
         </div>
     );
 };
