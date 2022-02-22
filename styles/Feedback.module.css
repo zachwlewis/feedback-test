@@ -1,0 +1,64 @@
+.feedbackArea {
+    width: 600px;
+    margin: 10rem auto;
+    padding: 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.25rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.25rem;
+    border-radius: 0.25rem;
+    border: 1px solid lightgray;
+}
+
+.textItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.textItem input {
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border: 1px solid lightgray;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+.submit {
+    font-size: 1.25rem;
+    padding: 1rem;
+    margin: 10px;
+    justify-self: stretch;
+}
+
+.formError {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 0.25rem;
+    background: pink;
+    color: darkred;
+    font-size: 1.25rem;
+}
+
+.formStatus {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid darkblue;
+    border-radius: 0.25rem;
+    background: lightblue;
+    color: darkblue;
+    font-size: 1.25rem;
+}
